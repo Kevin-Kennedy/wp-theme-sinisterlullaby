@@ -81,4 +81,15 @@ add_action(
     'sinisterlullaby_register_scripts'
 );
 
+function sinisterlullaby_theme_support(){
+    /* title = Settings > General > Site Title + Tagline */
+    add_theme_support('title-tag');
+}
+
+add_action(
+    'after_setup_theme',
+    'sinisterlullaby_theme_support'
+);
+
+
 ?>
