@@ -91,5 +91,19 @@ add_action(
     'sinisterlullaby_theme_support'
 );
 
+function sinisterlullaby_menus(){
+    $locations = [
+        "navigation" => "Navigation",
+        "footer" => "Footer"
+    ];
+
+    /* Appearance > Menus */
+    register_nav_menus($locations);
+}
+
+add_action(
+    'init',
+    'sinisterlullaby_menus'
+);
 
 ?>
