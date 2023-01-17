@@ -3,6 +3,14 @@ Wordpress Theme
 
 ## References
 
+https://youtu.be/-h7gOJbIpmo
+
+### CSS
+
+https://cdnjs.com/libraries
+
+### Wordpress
+
 https://wpshout.com/wordpress-template-hierarchy/
 
 https://codex.wordpress.org/Theme_Development
